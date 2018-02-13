@@ -12,7 +12,7 @@ const fractal = require('./fractal.js');
 const gulp = require('gulp');
 
 function watch() {
-  gulp.watch('**.txt', doLog);
+  gulp.watch('**.md', doLog);
 }
 // Uncomment this line to get rid of errors.
 const logger = fractal.cli.console;

@@ -1,0 +1,1 @@
+const fractal = module.exports = require('@frctl/fractal').create();
